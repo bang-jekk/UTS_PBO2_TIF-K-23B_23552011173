@@ -6,9 +6,9 @@
 
 ## Profil
 <ul>
-  <li>Nama: {Zainuddin Muhammad Zakiy}</li>
-  <li>NIM: {23552011173}</li>
-  <li>Studi Kasus: {Kasus 3}</li>
+  <li>Nama: Zainuddin Muhammad Zakiy</li>
+  <li>NIM: 23552011173</li>
+  <li>Studi Kasus: Kasus 3</li>
 </ul>
 
 ## Judul Studi Kasus
