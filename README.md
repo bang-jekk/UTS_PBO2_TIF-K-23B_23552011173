@@ -33,7 +33,8 @@ Semuanya dijalankan lewat console/terminal (CLI) pakai Java, dan datanya disimpa
 ## Penjelasan 4 Pilar OOP dalam Studi Kasus
 
 ### 1. Inheritance
-<p>// Abstract class
+<p>.</p>
+```// Abstract class
 public abstract class Sivitas {
     protected String nama;
     protected String nim;
@@ -55,7 +56,8 @@ public class Mahasiswa extends Sivitas {
         System.out.println("Mahasiswa: " + nama + " (" + nim + ")");
     }
 }
-.</p>
+```
+
 <p>Jadi penjelasannya kita bikin class umum namanya Sivitas, isinya data kayak nama dan nim. Terus ada class Mahasiswa yang nerusin (inherit) dari Sivitas.
 
 Jadi, Mahasiswa itu anaknya Sivitas. Dia nurun semua atribut dari ortunya.</p>
