@@ -34,5 +34,5 @@
 ## Demo Proyek
 <ul>
   <li>Github: <a href="https://github.com/bang-jekk/UTS_PBO2_TIF-K-23B_23552011173">Github</a></li>
-  <li>Youtube: <a href="https://www.youtube.com/watch?v=kMtSwWruHhA">Youtube</a></li>
+  <li>Youtube: <a href="">Youtube</a></li>
 </ul>
