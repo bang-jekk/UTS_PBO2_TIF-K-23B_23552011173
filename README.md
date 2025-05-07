@@ -55,6 +55,7 @@ public class Mahasiswa extends Sivitas {
 ```
 <p>Jadi penjelasannya kita bikin class umum namanya Sivitas, isinya data kayak nama dan nim. Terus ada class Mahasiswa yang neruskan (inherit) dari Sivitas.
 Jadi, Mahasiswa itu anaknya Sivitas. Dia nurun semua atribut dari ortunya.</p>
+
 ### 2. Encapsulation
 
 ```
