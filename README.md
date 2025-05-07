@@ -6,13 +6,13 @@
 
 ## Profil
 <ul>
-  <li>Nama: Zainuddin Muhammad Zakiy</li>
-  <li>NIM: 23552011173</li>
-  <li>Studi Kasus: Kasus 3</li>
+  <li>Nama : Zainuddin Muhammad Zakiy</li>
+  <li>NIM : 23552011173</li>
+  <li>Studi Kasus : Kasus 3</li>
 </ul>
 
 ## Judul Studi Kasus
-<p>Kasir Akademik.</p>
+<p>Kasir Akademik</p>
 
 ## Penjelasan Studi Kasus
 <p>Program Kasir Akademik adalah sistem berbasis Java CLI (Command Line Interface) yang digunakan untuk membantu staf administrasi kampus dalam mengelola pembayaran kuliah mahasiswa. Sistem ini mencakup fitur :
