@@ -33,6 +33,8 @@ Semuanya dijalankan lewat console/terminal (CLI) pakai Java, dan datanya disimpa
 ## Penjelasan 4 Pilar OOP dalam Studi Kasus
 
 ### 1. Inheritance
+<p>Contoh codenya : </p>
+
 ```
 public abstract class Sivitas {
     protected String nama;
@@ -57,6 +59,7 @@ public class Mahasiswa extends Sivitas {
 Jadi, Mahasiswa itu anaknya Sivitas. Dia nurun semua atribut dari ortunya.</p>
 
 ### 2. Encapsulation
+<p>Contoh codenya : </p>
 
 ```
 public class JadwalKuliah {
@@ -84,6 +87,8 @@ public class JadwalKuliah {
 Tujuannya biar data tida bisa diubah-ubah sembarangan. Harus lewat "pintu resmi" (getter/setter).</p>
 
 ### 3. Polymorphism
+<p>Contoh codenya : </p>
+
 ```
 public abstract class Pembayaran {
     public abstract double hitungTagihan();
@@ -103,6 +108,8 @@ public class TagihanKuliah extends Pembayaran {
 Jadi methodnya sama, tapi cara kerjanya beda jugga. Fleksibel pisan buat kondisi yang beda-beda.</p>
 
 ### 4. Abstract
+<p>Contoh codenya : </p>
+
 ```
 public abstract class Sivitas {
     protected String nama;
