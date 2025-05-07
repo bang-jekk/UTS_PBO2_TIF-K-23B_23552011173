@@ -33,15 +33,12 @@ Semuanya dijalankan lewat console/terminal (CLI) pakai Java, dan datanya disimpa
 ## Penjelasan 4 Pilar OOP dalam Studi Kasus
 
 ### 1. Inheritance
-<p>.</p>
-```// Abstract class
+```
 public abstract class Sivitas {
     protected String nama;
     protected String nim;
     public abstract void tampilkanInfo();
 }
-
-// Turunan dari Sivitas
 public class Mahasiswa extends Sivitas {
     private int id;
     
@@ -55,20 +52,66 @@ public class Mahasiswa extends Sivitas {
     public void tampilkanInfo() {
         System.out.println("Mahasiswa: " + nama + " (" + nim + ")");
     }
-}
 ```
-
-<p>Jadi penjelasannya kita bikin class umum namanya Sivitas, isinya data kayak nama dan nim. Terus ada class Mahasiswa yang nerusin (inherit) dari Sivitas.
-
+<p>Jadi penjelasannya kita bikin class umum namanya Sivitas, isinya data kayak nama dan nim. Terus ada class Mahasiswa yang neruskan (inherit) dari Sivitas.
 Jadi, Mahasiswa itu anaknya Sivitas. Dia nurun semua atribut dari ortunya.</p>
 ### 2. Encapsulation
-<p>Lorem ipsum sir dolor amet.</p>
+
+```
+public class JadwalKuliah {
+    private String hari;
+    private String mataKuliah;
+
+    public String getHari() {
+        return hari;
+    }
+
+    public void setHari(String hari) {
+        this.hari = hari;
+    }
+
+    public String getMataKuliah() {
+        return mataKuliah;
+    }
+
+    public void setMataKuliah(String mataKuliah) {
+        this.mataKuliah = mataKuliah;
+    }
+}
+```
+<p>Contohnya di data jadwal atau nilai, kita sembunyikan atribut-atributnya (dibuat private), trus kita aksesnya lewat getter & setter.
+Tujuannya biar data tida bisa diubah-ubah sembarangan. Harus lewat "pintu resmi" (getter/setter).</p>
 
 ### 3. Polymorphism
-<p>Lorem ipsum sir dolor amet.</p>
+```
+public abstract class Pembayaran {
+    public abstract double hitungTagihan();
+}
+
+public class TagihanKuliah extends Pembayaran {
+    private double total;
+    private double diskon;
+
+    @Override
+    public double hitungTagihan() {
+        return total - diskon;
+    }
+}
+```
+<p>Kita punya method hitungTagihan() di class Pembayaran. Nah, setiap class turunannya bisa punya cara hitung yang berbeda-beda.
+Jadi methodnya sama, tapi cara kerjanya beda jugga. Fleksibel pisan buat kondisi yang beda-beda.</p>
 
 ### 4. Abstract
-<p>Lorem ipsum sir dolor amet.</p>
+```
+public abstract class Sivitas {
+    protected String nama;
+    protected String nim;
+
+    public abstract void tampilkanInfo();
+}
+```
+<p>Sivitas itu kita bikin sebagai abstract class. Artinya dia ga bisa langsung dipakai, tapi harus diturunin dulu.
+Kayak blueprint. Cuma kerangka dasarnya ajah, baru bisa dipakai kalau diwariskan sama class lain kayak Mahasiswa.</p>
 
 ## Demo Proyek
 <ul>
